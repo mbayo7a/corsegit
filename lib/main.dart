@@ -25,7 +25,13 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Articles')),
+      appBar: AppBar(title: const Text('Articles'),
+      actions: [
+      IconButton(onPressed: (){}, icon:const Icon(Icons.abc_sharp)),
+      IconButton(onPressed: (){}, icon:const Icon(Icons.abc_sharp))
+
+      ],
+      ),
       body: Column(
         children: const [
           ListTile(
